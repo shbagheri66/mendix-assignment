@@ -40,7 +40,7 @@ public class WebTest {
 	protected MockMvc mockMvc;
 	
 	@Test
-	public void a_getAllTest() throws Exception {
+	public void a_getAllRecipeTest() throws Exception {
 		this.mockMvc.perform(get("/public/recipe"))
 		.andExpect(status().is2xxSuccessful());
 	}
@@ -71,7 +71,7 @@ public class WebTest {
 	
 	
 	@Test
-	public void d_addTest() throws Exception {
+	public void d_addRecipeTest() throws Exception {
 		this.mockMvc.perform(post("/public/recipe/add")
 		.contentType(MediaType.APPLICATION_JSON_VALUE)
 		.content(new Gson().toJson(getMockRecipe())))
@@ -79,11 +79,17 @@ public class WebTest {
 	}
 	
 	@Test
-	public void e_addWithDuplicateNameTest() throws Exception {
+	public void e_addRecipeWithDuplicateNameTest() throws Exception {
 		this.mockMvc.perform(post("/public/recipe/add")
 		.contentType(MediaType.APPLICATION_JSON_VALUE)
 		.content(new Gson().toJson(getMockRecipe())))
 		.andExpect(status().isBadRequest());
+	}
+	
+	@Test
+	public void f_getAllCategoriesTest() throws Exception {
+		this.mockMvc.perform(get("/public/category"))
+		.andExpect(status().is2xxSuccessful());
 	}
 	
 	

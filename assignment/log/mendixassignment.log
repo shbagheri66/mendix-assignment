@@ -1,3 +1,67 @@
 [main] -> 2018-Oct-30 20:18:29,035 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
 [main] -> 2018-Oct-30 20:18:29,046 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
 [main] -> 2018-Oct-30 20:18:29,051 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 20:52:16,398 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:52:16,406 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:52:16,410 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 20:52:48,466 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:52:48,473 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:52:48,477 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 20:57:20,789 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:57:20,797 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:57:20,801 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 20:58:08,343 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:58:08,352 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:58:08,356 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 20:59:46,252 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:59:46,259 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:59:46,263 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:01:20,234 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:01:20,242 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:01:20,246 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:02:00,277 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:02:00,286 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:02:00,291 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:07:21,018 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:07:21,028 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:07:21,033 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:08:21,177 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:08:21,186 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:08:21,190 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:09:30,533 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:09:30,541 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:09:30,545 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:10:52,345 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:10:52,352 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:10:52,357 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:15:30,346 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:15:30,358 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:15:30,362 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:42:44,497 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:42:44,506 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:42:44,510 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:43:12,186 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:43:12,193 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:43:12,196 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:50:01,945 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:50:01,953 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:50:01,958 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:52:10,861 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:52:10,868 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:52:10,874 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:52:12,203 [ INFO] SpringbootApplication.java:17         - App Started!
+[main] -> 2018-Oct-30 21:52:57,379 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:52:57,394 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:52:57,401 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:53:00,244 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:53:00,253 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:53:00,258 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:53:31,426 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:53:31,447 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:53:31,454 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:53:33,978 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:53:33,990 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:53:34,009 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
+[main] -> 2018-Oct-30 21:53:48,344 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 21:53:48,391 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 21:53:48,420 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
