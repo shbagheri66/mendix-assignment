@@ -48,6 +48,13 @@ public class DAORecipesTest {
 	}
 	
 	@Test
+	public void testAddNullRecipe() throws DuplicateRecipeException, InvalidInputException{
+		expectedEx.expect(InvalidInputException.class);
+	    expectedEx.expectMessage("can not add null recipe");
+		daoRecipes.addRecipe(null);
+	}
+	
+	@Test
 	public void testAddNullHead() throws DuplicateRecipeException, InvalidInputException{
 		expectedEx.expect(InvalidInputException.class);
 	    expectedEx.expectMessage(String.format(invalidInputErrorFormat,"head",canNotBeEmptyError));
@@ -99,6 +106,11 @@ public class DAORecipesTest {
 	    Recipe recipe = getSampleRecipe();
 	    recipe.setIngredients(null);
 		daoRecipes.addRecipe(recipe);
+	}
+	
+	@Test
+	public void testAddRecipe() throws DuplicateRecipeException, InvalidInputException{
+		daoRecipes.addRecipe(getSampleRecipe());
 	}
 	
 	

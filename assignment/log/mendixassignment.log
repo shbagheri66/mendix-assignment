@@ -1,0 +1,3 @@
+[main] -> 2018-Oct-30 20:18:29,035 [ INFO] DAORecipes.java     :40         - XMl file:30_Minute_Chili.xml loaded
+[main] -> 2018-Oct-30 20:18:29,046 [ERROR] DAORecipes.java     :42         - Error in field ingredients : can not be empty
+[main] -> 2018-Oct-30 20:18:29,051 [ INFO] DAORecipes.java     :40         - XMl file:Another_Zucchini_Dish.xml loaded
