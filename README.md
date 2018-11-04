@@ -14,6 +14,11 @@ It contains some REST services to manage recipes.
 
 > mvnw spring-boot:run
 
+## How to run tests?
+
+in the project base folder, enter the below command
+> mvnw surefire:test
+
 ## How to create a runnable JAR?
 
  enter below command
