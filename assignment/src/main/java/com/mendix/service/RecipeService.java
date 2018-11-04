@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mendix.dao.DAORecipes;
+import com.mendix.dto.RecipeDTO;
 import com.mendix.exception.DuplicateRecipeException;
 import com.mendix.exception.InvalidInputException;
 import com.mendix.model.Recipe;
@@ -46,44 +47,35 @@ public class RecipeService {
 	}
 	
 	/**
-	 * fetch all available recipes containing special text in categories or title
-	 * @param query the search String query
-	 * @return list of recipes that contain special text
+	 * fetch all available recipeDTOs from memory
+	 * @return list of all recipeDTOs
 	 */
-	@GetMapping("/search/{query}")
-	public ResponseEntity<List<Recipe>> search(@PathVariable("query") String query)
+	@GetMapping("/recipedto")
+	public ResponseEntity<List<RecipeDTO>> getRecipeDTO()
 	{
 		List<Recipe> recipes = daoRecipes.getRecipes();
-		List<Recipe> result = new ArrayList<>();
+		List<RecipeDTO> result = new ArrayList<>();
 		for (Recipe recipe : recipes) {
-			if(recipe.getHead().getTitle().toLowerCase().contains(query.toLowerCase())) {
-				result.add(recipe);
-			}else {
-				for (String cat : recipe.getHead().getCategories().getCat()) {
-					if(cat.toLowerCase().contains(query.toLowerCase())) {
-						result.add(recipe);
-						break;
-					}
-				}
-			}
+			result.add(new RecipeDTO(recipe));
 		}
 		logger.trace("Finished,size:"+result.size());
 		return ResponseEntity.ok(result);
 	}
 	/**
-	 * search in all available recipes and return those that are in special category
+	 * search in all available recipeِDTOs and return those that are in special category
 	 * @param category the category name to return all related recipes
-	 * @return list of recipes that are in special category
+	 * @return list of recipeDTOs that are in special category
 	 */
-	@GetMapping("/category/{category}")
-	public ResponseEntity<List<Recipe>> getByCategory(@PathVariable("category") String category)
+	@GetMapping("/recipedto/{category}")
+	public ResponseEntity<List<RecipeDTO>> getByCategory2(@PathVariable("category") String category)
 	{
+		logger.trace("start,category:"+category);
 		List<Recipe> recipes = daoRecipes.getRecipes();
-		List<Recipe> result = new ArrayList<>();
+		List<RecipeDTO> result = new ArrayList<>();
 		for (Recipe recipe : recipes) {
 			for (String cat : recipe.getHead().getCategories().getCat()) {
 				if(cat.equalsIgnoreCase(category)) {
-					result.add(recipe);
+					result.add(new RecipeDTO(recipe));
 					break;
 				}
 			}
@@ -91,7 +83,31 @@ public class RecipeService {
 		logger.trace("Finished,size:"+result.size());
 		return ResponseEntity.ok(result);
 	}
-	
+	/**
+	 * fetch all available recipes containing special text in categories or title
+	 * @param query the search String query
+	 * @return list of recipes that contain special text
+	 */
+	@GetMapping("/search/{query}")
+	public ResponseEntity<List<RecipeDTO>> search(@PathVariable("query") String query)
+	{
+		List<Recipe> recipes = daoRecipes.getRecipes();
+		List<RecipeDTO> result = new ArrayList<>();
+		for (Recipe recipe : recipes) {
+			if(recipe.getHead().getTitle().toLowerCase().contains(query.toLowerCase())) {
+				result.add(new RecipeDTO(recipe));
+			}else {
+				for (String cat : recipe.getHead().getCategories().getCat()) {
+					if(cat.toLowerCase().contains(query.toLowerCase())) {
+						result.add(new RecipeDTO(recipe));
+						break;
+					}
+				}
+			}
+		}
+		logger.trace("Finished,size:"+result.size());
+		return ResponseEntity.ok(result);
+	}	
 	/**
 	 * add new recipe
 	 * @param new recipe in JSON format

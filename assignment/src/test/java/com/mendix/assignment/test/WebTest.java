@@ -59,7 +59,7 @@ public class WebTest {
 	
 	@Test
 	public void c_searchWithCategoryTest() throws Exception {
-		this.mockMvc.perform(get("/public/recipe/category/vegetables"))
+		this.mockMvc.perform(get("/public/recipe/recipedto/vegetables"))
 		.andDo(new ResultHandler() {
 			@Override
 			public void handle(MvcResult result) throws Exception {
@@ -89,6 +89,12 @@ public class WebTest {
 	@Test
 	public void f_getAllCategoriesTest() throws Exception {
 		this.mockMvc.perform(get("/public/category"))
+		.andExpect(status().is2xxSuccessful());
+	}
+	
+	@Test
+	public void g_getAllRecipeDTOTest() throws Exception {
+		this.mockMvc.perform(get("/public/recipe/recipedto"))
 		.andExpect(status().is2xxSuccessful());
 	}
 	
