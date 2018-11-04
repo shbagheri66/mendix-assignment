@@ -31,21 +31,21 @@ then go to target directory,then enter the following command
 
 ## Default port
 
-the application will run on port 8080 by default, you can change in application.properties file.
+the application will run on port 8081 by default, you can change in application.properties file.
 
 ## REST API Addresses
 
 get all recipes :
-> GET http://localhost:8080/public/recipe
+> GET http://localhost:8081/public/recipe/recipedto
 
 get recipes that are in special category:
-> GET http://localhost:8080/public/recipe/category/{category name}
+> GET http://localhost:8081/public/recipe/recipedto/{category name}
 
 get recipes that have special text in title or category(quick search):
-> GET http://localhost:8080/public/recipe/search/{search string}
+> GET http://localhost:8081/public/recipe/search/{search string}
 
 add new recipe
-> POST http://localhost:8080/public/recipe/add
+> POST http://localhost:8081/public/recipe/add
 
 get all categories 
-> GET http://localhost:8080/public/category
+> GET http://localhost:8081/public/category
